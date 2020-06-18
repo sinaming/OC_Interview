@@ -8,6 +8,14 @@
 
 #import "ViewController.h"
 
+#import "Person.h"
+//#import "Person+Age.h"
+//#import "Person+Name.h"
+
+#import "Student.h"
+//#import "Student+Age.h"
+//#import "Student+Name.h"
+
 @interface ViewController ()
 
 @end
@@ -36,6 +44,14 @@
                     属性、对象方法、协议、成员变量       类方法
                     ...                            ...
      */
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    
+    [Person alloc];
+    [Student alloc];
+    
 }
 
 

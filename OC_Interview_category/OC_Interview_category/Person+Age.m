@@ -10,4 +10,12 @@
 
 @implementation Person (Age)
 
++ (void)load {
+    NSLog(@"Person (Age) - load");
+}
+
++ (void)initialize {
+   NSLog(@"Person (Age) - initialize");
+}
+
 @end

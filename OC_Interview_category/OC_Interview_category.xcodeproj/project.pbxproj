@@ -181,9 +181,9 @@
 			files = (
 				041B71DD249AFB5200C0AEB3 /* Person.m in Sources */,
 				041B71D5249AF9BF00C0AEB3 /* main.m in Sources */,
+				041B71C7249AF9BB00C0AEB3 /* ViewController.m in Sources */,
 				041B71EC249AFBC000C0AEB3 /* Student+Age.m in Sources */,
 				041B71E6249AFBA200C0AEB3 /* Person+Age.m in Sources */,
-				041B71C7249AF9BB00C0AEB3 /* ViewController.m in Sources */,
 				041B71E3249AFB9500C0AEB3 /* Person+Name.m in Sources */,
 				041B71CD249AF9BB00C0AEB3 /* OC_Interview_category.xcdatamodeld in Sources */,
 				041B71E0249AFB8400C0AEB3 /* Student.m in Sources */,

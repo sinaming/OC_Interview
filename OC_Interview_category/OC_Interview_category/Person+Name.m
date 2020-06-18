@@ -10,4 +10,12 @@
 
 @implementation Person (Name)
 
++ (void)load {
+    NSLog(@"Person (Name) - load");
+}
+
++ (void)initialize {
+   NSLog(@"Person (Name) - initialize");
+}
+
 @end
