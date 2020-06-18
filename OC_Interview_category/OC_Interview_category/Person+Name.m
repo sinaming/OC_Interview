@@ -15,11 +15,13 @@ static const char XMPerson;
 
 - (void)setName:(NSString *)name {
     // _cmd == @selector(name);
-    objc_setAssociatedObject(self, &XMPerson, name, OBJC_ASSOCIATION_COPY_NONATOMIC);
+//    objc_setAssociatedObject(self, &XMPerson, name, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(name), name, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (NSString *)name {
-    return objc_getAssociatedObject(self, &XMPerson);
+//    return objc_getAssociatedObject(self, &XMPerson);
+    return objc_getAssociatedObject(self, _cmd);
 }
 
 + (void)load {
