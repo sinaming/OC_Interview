@@ -10,4 +10,8 @@
 
 @implementation Person
 
++ (void)load {
+    NSLog(@"Person - load");
+}
+
 @end
