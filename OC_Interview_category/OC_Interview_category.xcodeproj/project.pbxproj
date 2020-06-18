@@ -15,6 +15,12 @@
 		041B71CF249AF9BF00C0AEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041B71CE249AF9BF00C0AEB3 /* Assets.xcassets */; };
 		041B71D2249AF9BF00C0AEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B71D0249AF9BF00C0AEB3 /* LaunchScreen.storyboard */; };
 		041B71D5249AF9BF00C0AEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71D4249AF9BF00C0AEB3 /* main.m */; };
+		041B71DD249AFB5200C0AEB3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71DC249AFB5200C0AEB3 /* Person.m */; };
+		041B71E0249AFB8400C0AEB3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71DF249AFB8400C0AEB3 /* Student.m */; };
+		041B71E3249AFB9500C0AEB3 /* Person+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71E2249AFB9500C0AEB3 /* Person+Name.m */; };
+		041B71E6249AFBA200C0AEB3 /* Person+Age.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71E5249AFBA200C0AEB3 /* Person+Age.m */; };
+		041B71E9249AFBB200C0AEB3 /* Student+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71E8249AFBB200C0AEB3 /* Student+Name.m */; };
+		041B71EC249AFBC000C0AEB3 /* Student+Age.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B71EB249AFBC000C0AEB3 /* Student+Age.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,18 @@
 		041B71D1249AF9BF00C0AEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041B71D3249AF9BF00C0AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041B71D4249AF9BF00C0AEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041B71DB249AFB5200C0AEB3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		041B71DC249AFB5200C0AEB3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		041B71DE249AFB8400C0AEB3 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		041B71DF249AFB8400C0AEB3 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		041B71E1249AFB9400C0AEB3 /* Person+Name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Name.h"; sourceTree = "<group>"; };
+		041B71E2249AFB9500C0AEB3 /* Person+Name.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Name.m"; sourceTree = "<group>"; };
+		041B71E4249AFBA200C0AEB3 /* Person+Age.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Age.h"; sourceTree = "<group>"; };
+		041B71E5249AFBA200C0AEB3 /* Person+Age.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Age.m"; sourceTree = "<group>"; };
+		041B71E7249AFBB200C0AEB3 /* Student+Name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Name.h"; sourceTree = "<group>"; };
+		041B71E8249AFBB200C0AEB3 /* Student+Name.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Name.m"; sourceTree = "<group>"; };
+		041B71EA249AFBC000C0AEB3 /* Student+Age.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Age.h"; sourceTree = "<group>"; };
+		041B71EB249AFBC000C0AEB3 /* Student+Age.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Age.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +87,18 @@
 				041B71C3249AF9BB00C0AEB3 /* SceneDelegate.m */,
 				041B71C5249AF9BB00C0AEB3 /* ViewController.h */,
 				041B71C6249AF9BB00C0AEB3 /* ViewController.m */,
+				041B71DB249AFB5200C0AEB3 /* Person.h */,
+				041B71DC249AFB5200C0AEB3 /* Person.m */,
+				041B71E1249AFB9400C0AEB3 /* Person+Name.h */,
+				041B71E2249AFB9500C0AEB3 /* Person+Name.m */,
+				041B71E4249AFBA200C0AEB3 /* Person+Age.h */,
+				041B71E5249AFBA200C0AEB3 /* Person+Age.m */,
+				041B71DE249AFB8400C0AEB3 /* Student.h */,
+				041B71DF249AFB8400C0AEB3 /* Student.m */,
+				041B71E7249AFBB200C0AEB3 /* Student+Name.h */,
+				041B71E8249AFBB200C0AEB3 /* Student+Name.m */,
+				041B71EA249AFBC000C0AEB3 /* Student+Age.h */,
+				041B71EB249AFBC000C0AEB3 /* Student+Age.m */,
 				041B71C8249AF9BB00C0AEB3 /* Main.storyboard */,
 				041B71CE249AF9BF00C0AEB3 /* Assets.xcassets */,
 				041B71D0249AF9BF00C0AEB3 /* LaunchScreen.storyboard */,
@@ -149,10 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041B71DD249AFB5200C0AEB3 /* Person.m in Sources */,
 				041B71D5249AF9BF00C0AEB3 /* main.m in Sources */,
+				041B71EC249AFBC000C0AEB3 /* Student+Age.m in Sources */,
+				041B71E6249AFBA200C0AEB3 /* Person+Age.m in Sources */,
 				041B71C7249AF9BB00C0AEB3 /* ViewController.m in Sources */,
+				041B71E3249AFB9500C0AEB3 /* Person+Name.m in Sources */,
 				041B71CD249AF9BB00C0AEB3 /* OC_Interview_category.xcdatamodeld in Sources */,
+				041B71E0249AFB8400C0AEB3 /* Student.m in Sources */,
 				041B71C1249AF9BB00C0AEB3 /* AppDelegate.m in Sources */,
+				041B71E9249AFBB200C0AEB3 /* Student+Name.m in Sources */,
 				041B71C4249AF9BB00C0AEB3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
