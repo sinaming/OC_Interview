@@ -7,8 +7,20 @@
 //
 
 #import "Person+Name.h"
+#import <objc/runtime.h>
+
+static const char XMPerson;
 
 @implementation Person (Name)
+
+- (void)setName:(NSString *)name {
+    // _cmd == @selector(name);
+    objc_setAssociatedObject(self, &XMPerson, name, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (NSString *)name {
+    return objc_getAssociatedObject(self, &XMPerson);
+}
 
 + (void)load {
     NSLog(@"Person (Name) - load");
